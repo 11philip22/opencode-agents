@@ -6,10 +6,10 @@ permission:
   bash:
     "*": ask
     "grep *": allow
-    "cargo check": allow
+    "cargo check*": allow
     "cargo doc*": allow
     "cargo test*": allow
-    "cargo fmt --check": allow
+    "cargo fmt*": allow
     "git diff*": allow
     "git log*": allow
     "git status*": allow
