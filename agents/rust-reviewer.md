@@ -9,7 +9,7 @@ permission:
     "cargo check*": allow
     "cargo doc*": allow
     "cargo test*": allow
-    "cargo fmt*": allow
+    "cargo fmt --check*": allow
     "git diff*": allow
     "git log*": allow
     "git status*": allow
